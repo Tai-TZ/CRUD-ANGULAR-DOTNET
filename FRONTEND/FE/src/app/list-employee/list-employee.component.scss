@@ -1,0 +1,37 @@
+::ng-deep {
+    .app-list-employee {
+        table {
+
+
+            thead {
+                .mat-mdc-header-row {
+                    th {
+                        text-align: center;
+                    }
+                }
+            }
+
+            .mdc-data-table__content {
+                tr {
+                    td {
+                        text-align: center;
+
+                        &.mat-column-action {
+                            button {
+                                margin: 5px;
+                            }
+
+                            .editE {
+                                background-color: #afdce7;
+                            }
+
+                            .delE {
+                                background-color: #e7442e;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
