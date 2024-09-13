@@ -1,0 +1,22 @@
+::ng-deep {
+
+
+    app-detail-employee {
+
+        .infoDetail {
+            .btnAct {
+                button {
+                    margin: 5px;
+                }
+
+                .editE {
+                    background-color: #afdce7;
+                }
+
+                .delE {
+                    background-color: #e7442e;
+                }
+            }
+        }
+    }
+}

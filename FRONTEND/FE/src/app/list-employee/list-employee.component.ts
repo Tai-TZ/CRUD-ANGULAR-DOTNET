@@ -32,9 +32,7 @@ export class ListEmployeeComponent {
   ];
 
   Edit(e: any) {
-
     this.router.navigate(['DetailEmployee', e.id])
-
     console.log(e);
   }
 }
